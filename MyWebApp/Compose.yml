@@ -1,6 +1,6 @@
 services:
   web:
-    build: MyWebApp/MyWebApp
+    build: .
     ports:
       - 80:80
   db:
